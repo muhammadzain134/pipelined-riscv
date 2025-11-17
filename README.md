@@ -35,7 +35,7 @@ Pipeline registers separate each stage to allow instruction-level parallelism.
 
 ---
 
-## 🧩 Block Diagram
+## Block Diagram
 
 <p align="center">
 <img width="1170" height="729" alt="pipeline" src="https://github.com/user-attachments/assets/8577c95d-31ce-4d0b-bc56-cc7c0c2852c4" />
