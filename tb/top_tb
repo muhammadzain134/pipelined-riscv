@@ -1,0 +1,20 @@
+`timescale 1ns / 1ps
+
+module top_tb;
+logic clk;
+logic rst;
+
+top uut (.clk(clk),.rst(rst));
+
+initial clk = 0;
+always #5 clk = ~clk;
+
+initial begin
+    rst = 1;
+    #10;
+    rst = 0;
+    #400;
+    $finish;
+end
+
+endmodule
